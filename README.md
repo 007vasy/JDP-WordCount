@@ -1,7 +1,7 @@
 # Word Frequency Counter from TXT file
 
 ## Install and set up needed requirements
-	* Make sure you have python installed: `https://realpython.com/installing-python/`
+	* Make sure you have python installed: ```https://realpython.com/installing-python/```
 	* Install some package which could create a virtual environment (venv, anaconda etc.)
 	* Activate the virtualenv
 	* Install the needed python packages with `pip install requirements.txt`
