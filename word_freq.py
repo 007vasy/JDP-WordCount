@@ -17,6 +17,7 @@ Options:
 
 import os
 import sys
+import re
 from docopt import docopt
 
 def openFileAndReadIn(fileName):
@@ -33,8 +34,8 @@ def openFileAndReadIn(fileName):
     return text
 
 def cleanTextAndMakeAList(text):
-    for ch in "-.,:'":
-         text = text.replace(ch,'')
+    
+    text = re.sub('[^a-zA-Z]+', ' ', text)
 
     text = text.lower()
 
