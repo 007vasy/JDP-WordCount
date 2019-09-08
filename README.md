@@ -6,6 +6,7 @@
 	3. Activate the virtualenv
 	4. Install the needed python packages with `pip install requirements.txt`
 
+
 ## Analysis of the text
 	- Run `python word_freq.py t8.shakespeare.txt 100 stop_words.txt` for analysis text.
 # Get help 
