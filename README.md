@@ -9,5 +9,5 @@
 
 ## Analysis of the text
 	- Run `python word_freq.py t8.shakespeare.txt 100 stop_words.txt` for analysis text.
-# Get help 
-	python word_freq.py -h
+## Get help 
+	`python word_freq.py -h`
