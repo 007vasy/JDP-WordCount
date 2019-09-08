@@ -1,0 +1,23 @@
+# Please see the code test below:
+
+ 
+
+Here is a test I would like you to try out. It's pretty simple but the key is to see how you implement something simply ... the bad programmers make it way more complicated than it needs to be.
+
+# The task:
+
+
+Write a python script that takes as an argument a filename of a text file to process.
+The python script needs to load this file and parse its contents.
+It needs to print out to standard output a report of word frequencies, with the most frequent word at the top of the output, followed by the second most frequent word and so on.
+
+# Bonus things - not essential, but will impress if done:
+
+
+configuration to have a minimum count of words so we can exclude say all words not occurring more than 100 times from the script output.
+the ability to use a list (either hardcoded or preferable loaded from another file) of "stop words" (i.e. "a","the","then","them") to exclude from the analysis and report.
+error handling if the file is not present, or cannot be opened, showing a sensible error message back to the user.
+
+You should be able to provide me with a single Python script I can run to figure out the most common words in say a text file containing a Shakespearean play for example (these are great because they are out of copyright and can be easily downloaded for testing purposes).
+
+The idea of the test is to demonstrate how you lay out a program and solve a task. I'm happy with you googling to find key python programming answers (ie.. "python open text file for reading"), but I'm also going to be aware of the typical google results for "python program to parse text file into common words".
